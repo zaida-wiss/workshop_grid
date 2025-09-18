@@ -1,0 +1,30 @@
+body {
+    background-color: white;
+}
+
+.container{
+    display: grid;
+    border: green 2px solid;
+    border-radius: 30px;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 600px;
+    width: 600px;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+
+}
+
+.item {
+    border: black solid 2px;
+   
+}
+
+.item:nth-child(1){
+    border: 3px green dashed;
+    grid-row: 5;
+    grid-column: 3;
+
+}
